@@ -1,0 +1,2131 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML笔记-6, Knull的个人博客">
+    <meta name="description" content="一篇文章学会html">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>HTML笔记-6 | Knull的个人博客</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+
+   <style>
+    body{
+       background-image: url(https://images.alphacoders.com/205/thumb-1920-205913.jpg);
+       background-repeat:no-repeat;
+       background-size: 100% 100%;
+       background-attachment:fixed;
+    }
+</style>
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Knull的个人博客</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Knull的个人博客</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/K-null/K-null.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/K-null/K-null.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://tse2-mm.cn.bing.net/th/id/OIP-C.a8oZMxGm-X0PvaLghp0cfAHaEK?pid=ImgDet&rs=1')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">HTML笔记-6</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/HTML/">
+                                <span class="chip bg-color">HTML</span>
+                            </a>
+                        
+                            <a href="/tags/CSS/">
+                                <span class="chip bg-color">CSS</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/HTML/" class="post-category">
+                                HTML
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-11-02
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2021-11-02
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    5.6k
+                </div>
+                
+
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="1-定位-position-介绍"><a href="#1-定位-position-介绍" class="headerlink" title="1. 定位(position) 介绍"></a>1. 定位(position) 介绍</h2><hr>
+<h3 id="1-1-为什么使用定位"><a href="#1-1-为什么使用定位" class="headerlink" title="1.1 为什么使用定位"></a>1.1 为什么使用定位</h3><blockquote>
+<p>我们先来看一个效果，同时思考一下<strong>用标准流或浮动能否实现类似的效果</strong>？</p>
+</blockquote>
+<p><strong>场景1</strong>： 某个元素可以自由的在一个盒子内移动位置，并且压住其他盒子.</p>
+<img src="images/01_定位示例1.gif" />
+
+
+
+<p><strong>场景2</strong>：当我们滚动窗口的时候，盒子是固定屏幕某个位置的。</p>
+<img src="images/ding.png" />
+
+
+
+<blockquote>
+<p>结论<strong>：要实现以上效果，</strong>标准流 或 浮动都无法快速实现</p>
+</blockquote>
+<p>所以：</p>
+<p>1.浮动可以让多个块级盒子一行没有缝隙排列显示， 经常用于横向排列盒子。</p>
+<p>2.定位则是可以让盒子自由的在某个盒子内移动位置或者固定屏幕中某个位置，并且可以压住其他盒子。</p>
+<h3 id="1-2-定位组成"><a href="#1-2-定位组成" class="headerlink" title="1.2 定位组成"></a>1.2 定位组成</h3><p><strong>定位</strong>：将盒子<strong>定</strong>在某一个位置，所以<strong>定位也是在摆放盒子， 按照定位的方式移动盒子</strong></p>
+<p>定位也是用来布局的，它有两部分组成：</p>
+<blockquote>
+<p><strong>定位 = 定位模式 + 边偏移</strong>  </p>
+</blockquote>
+<p><strong>定位模式</strong> 用于指定一个元素在文档中的定位方式。<strong>边偏移</strong>则决定了该元素的最终位置。</p>
+<h4 id="1-2-1-边偏移（方位名词）"><a href="#1-2-1-边偏移（方位名词）" class="headerlink" title="1.2.1 边偏移（方位名词）"></a>1.2.1 边偏移（方位名词）</h4><p><strong>边偏移</strong> 就是定位的盒子移动到最终位置。有 top、bottom、left 和 right  4 个属性。</p>
+<table>
+<thead>
+<tr>
+<th>边偏移属性</th>
+<th align="left">示例</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>top</code></td>
+<td align="left"><code>top: 80px</code></td>
+<td><strong>顶端</strong>偏移量，定义元素相对于其父元素<strong>上边线的距离</strong>。</td>
+</tr>
+<tr>
+<td><code>bottom</code></td>
+<td align="left"><code>bottom: 80px</code></td>
+<td><strong>底部</strong>偏移量，定义元素相对于其父元素<strong>下边线的距离</strong>。</td>
+</tr>
+<tr>
+<td><code>left</code></td>
+<td align="left"><code>left: 80px</code></td>
+<td><strong>左侧</strong>偏移量，定义元素相对于其父元素<strong>左边线的距离</strong>。</td>
+</tr>
+<tr>
+<td><code>right</code></td>
+<td align="left"><code>right: 80px</code></td>
+<td><strong>右侧</strong>偏移量，定义元素相对于其父元素<strong>右边线的距离</strong></td>
+</tr>
+</tbody></table>
+<p>定位的盒子有了边偏移才有价值。 一般情况下，凡是有定位地方必定有边偏移。</p>
+<h4 id="1-2-2-定位模式-position"><a href="#1-2-2-定位模式-position" class="headerlink" title="1.2.2 定位模式 (position)"></a>1.2.2 定位模式 (position)</h4><p>在 CSS 中，通过 <code>position</code> 属性定义元素的<strong>定位模式</strong>，语法如下：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">选择器 &#123; </span><br><span class="line">    <span class="attribute">position</span>: 属性值; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>定位模式是有不同分类的，在不同情况下，我们用到不同的定位模式。</p>
+<p>定位模式决定元素的定位方式 ，它通过 CSS 的 position 属性来设置，其值可以分为四个：</p>
+<table>
+<thead>
+<tr>
+<th>值</th>
+<th align="center">语义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>static</code></td>
+<td align="center"><strong>静态</strong>定位</td>
+</tr>
+<tr>
+<td><code>relative</code></td>
+<td align="center"><strong>相对</strong>定位</td>
+</tr>
+<tr>
+<td><code>absolute</code></td>
+<td align="center"><strong>绝对</strong>定位</td>
+</tr>
+<tr>
+<td><code>fixed</code></td>
+<td align="center"><strong>固定</strong>定位</td>
+</tr>
+</tbody></table>
+ <img src='./images/26定位的概念.png'>
+
+<h3 id="1-3-定位模式介绍"><a href="#1-3-定位模式介绍" class="headerlink" title="1.3 定位模式介绍"></a>1.3 定位模式介绍</h3><h4 id="1-3-1-静态定位-static-了解"><a href="#1-3-1-静态定位-static-了解" class="headerlink" title="1.3.1.  静态定位(static) - 了解"></a>1.3.1.  静态定位(static) - 了解</h4><ul>
+<li><p><strong>静态定位</strong>是元素的<strong>默认</strong>定位方式，<strong>无定位的意思</strong>。它相当于 border 里面的none，静态定位static，不要定位的时候用。</p>
+</li>
+<li><p>语法：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">选择器 &#123; </span><br><span class="line">    position: static; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>静态定位 按照标准流特性摆放位置，它没有边偏移。</p>
+</li>
+<li><p>静态定位在布局时我们几乎不用的 </p>
+</li>
+</ul>
+<h4 id="1-3-2-相对定位-relative-重要"><a href="#1-3-2-相对定位-relative-重要" class="headerlink" title="1.3.2. 相对定位(relative) - 重要"></a>1.3.2. 相对定位(relative) - 重要</h4><ul>
+<li><strong>相对定位</strong>是元素在移动位置的时候，是相对于它自己<strong>原来的位置</strong>来说的（自恋型）。</li>
+<li>语法：</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">选择器 &#123; </span><br><span class="line">	position: relative; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>相对定位的特点：（务必记住）</p>
+<ul>
+<li><p>1.它是相对于自己原来的位置来移动的（移动位置的时候参照点是自己原来的位置）。</p>
+</li>
+<li><p>2.<strong>原来</strong>在标准流的<strong>位置</strong>继续占有，后面的盒子仍然以标准流的方式对待它。</p>
+<p>因此，<strong>相对定位并没有脱标</strong>。它最典型的应用是给绝对定位当爹的。。。</p>
+</li>
+</ul>
+</li>
+<li><p>效果图：</p>
+</li>
+</ul>
+<p><img src="./images/04_%E7%9B%B8%E5%AF%B9%E5%AE%9A%E4%BD%8D%E6%A1%88%E4%BE%8B.png" alt="相对定位案例"></p>
+<h4 id="1-3-3-绝对定位-absolute-重要"><a href="#1-3-3-绝对定位-absolute-重要" class="headerlink" title="1.3.3. 绝对定位(absolute) - 重要"></a>1.3.3. 绝对定位(absolute) - 重要</h4><h5 id="1-3-3-1-绝对定位的介绍"><a href="#1-3-3-1-绝对定位的介绍" class="headerlink" title="1.3.3.1 绝对定位的介绍"></a>1.3.3.1 绝对定位的介绍</h5><ul>
+<li><p><strong>绝对定位</strong>是元素在移动位置的时候，是相对于它<strong>祖先元素</strong>来说的（拼爹型）。</p>
+</li>
+<li><p>语法：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">选择器 &#123; </span><br><span class="line">	position: absolute; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<ol>
+<li><p><strong>完全脱标</strong> —— 完全不占位置；  </p>
+</li>
+<li><p><strong>父元素没有定位</strong>，则以<strong>浏览器</strong>为准定位（Document 文档）。</p>
+<img src="./images/05_绝对定位_父级无定位.png" width="600" /></li>
+<li><p><strong>父元素要有定位</strong></p>
+<ul>
+<li>元素将依据最近的已经定位（绝对、固定或相对定位）的父元素（祖先）进行定位。</li>
+</ul>
+</li>
+</ol>
+<img src="./images/06_绝对定位_父级有定位.png" width="600" />
+
+
+<ul>
+<li><p><strong>绝对定位的特点总结</strong>：（务必记住）</p>
+<p>1.如果<strong>没有祖先元素</strong>或者<strong>祖先元素没有定位</strong>，则以浏览器为基准定位（Document 文档）。</p>
+<p>2.如果祖先元素有定位（相对、绝对、固定定位），则以最近一级的有定位祖先元素为参考点移动位置。</p>
+<p>3.绝对定位<strong>不再占有原先的位置</strong>。所以绝对定位是脱离标准流的。（脱标）</p>
+</li>
+</ul>
+<h5 id="1-3-3-2-定位口诀-——-子绝父相"><a href="#1-3-3-2-定位口诀-——-子绝父相" class="headerlink" title="1.3.3.2 定位口诀 —— 子绝父相"></a>1.3.3.2 定位口诀 —— 子绝父相</h5><p>弄清楚这个口诀，就明白了绝对定位和相对定位的使用场景。</p>
+<p>这个<strong>“子绝父相”</strong>太重要了，是我们学习定位的<strong>口诀</strong>，是定位中最常用的一种方式这句话的意思是：<strong>子级是绝对定位的话，父级要用相对定位。</strong></p>
+<p>因为绝对定位的盒子是拼爹的，所以要和父级搭配一起来使用。</p>
+<p>①子级绝对定位，不会占有位置，可以放到父盒子里面的任何一个地方，不会影响其他的兄弟盒子。</p>
+<p>②父盒子需要加定位限制子盒子在父盒子内显示。</p>
+<p>③父盒子布局时，需要占有位置，因此父亲只能是相对定位。</p>
+<p>这就是子绝父相的由来，所以<strong>相对定位经常用来作为绝对定位的父级</strong>。</p>
+<p>总结： <strong>因为父级需要占有位置，因此是相对定位， 子盒子不需要占有位置，则是绝对定位</strong></p>
+<p>当然，子绝父相不是永远不变的，如果父元素不需要占有位置，<strong>子绝父绝</strong>也会遇到。</p>
+<p><strong>疑问</strong>：为什么在布局时，<strong>子级元素</strong>使用<strong>绝对定位</strong>时，<strong>父级元素</strong>就要用<strong>相对定位</strong>呢？</p>
+<p>观察下图，思考一下在布局时，<strong>左右两个方向的箭头图片</strong>以及<strong>父级盒子</strong>的定位方式。</p>
+<p><img src="./images/07_%E5%AD%90%E7%BB%9D%E7%88%B6%E7%9B%B8%E6%88%AA%E5%9B%BE.png" alt="子绝父相截图"></p>
+<img src='./images/27子绝父相.png'>
+
+<p><strong>分析</strong>：</p>
+<ol>
+<li><strong>方向箭头</strong>叠加在其他图片上方，应该使用<strong>绝对定位</strong>，因为<strong>绝对定位完全脱标</strong>，完全不占位置。</li>
+<li><strong>父级盒子</strong>应该使用<strong>相对定位</strong>，因为<strong>相对定位不脱标</strong>，后续盒子仍然以标准流的方式对待它。<ul>
+<li>如果父级盒子也使用<strong>绝对定位</strong>，会完全脱标，那么下方的<strong>广告盒子</strong>会上移，这显然不是我们想要的。</li>
+</ul>
+</li>
+</ol>
+<p><strong>结论</strong>：<strong>父级要占有位置，子级要任意摆放</strong>，这就是<strong>子绝父相</strong>的由来。</p>
+<h4 id="1-3-4-固定定位-fixed-重要"><a href="#1-3-4-固定定位-fixed-重要" class="headerlink" title="1.3.4. 固定定位(fixed) - 重要"></a>1.3.4. 固定定位(fixed) - 重要</h4><ul>
+<li><p><strong>固定定位</strong>是元素<strong>固定于浏览器可视区的位置</strong>。（认死理型）   主要使用场景： 可以在浏览器页面滚动时元素的位置不会改变。</p>
+</li>
+<li><p>语法：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">选择器 &#123; </span><br><span class="line">	position: fixed; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>固定定位的特点：（务必记住）：</p>
+<p>1.以浏览器的可视窗口为参照点移动元素。</p>
+<ul>
+<li>跟父元素没有任何关系</li>
+<li>不随滚动条滚动。</li>
+</ul>
+<p>2.固定定位<strong>不在占有原先的位置</strong>。</p>
+</li>
+<li><p>固定定位也是<strong>脱标</strong>的，其实<strong>固定定位也可以看做是一种特殊的绝对定位</strong>。（认死理型） </p>
+<ul>
+<li><strong>完全脱标</strong>—— 完全不占位置；</li>
+<li>只认<strong>浏览器的可视窗口</strong> —— <code>浏览器可视窗口 + 边偏移属性</code> 来设置元素的位置；<ul>
+<li>跟父元素没有任何关系；单独使用的</li>
+<li>不随滚动条滚动。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>固定定位举例：</p>
+</blockquote>
+<p><img src="./images/08_%E5%9B%BA%E5%AE%9A%E5%AE%9A%E4%BD%8D%E6%A1%88%E4%BE%8B.png" alt="固定定位案例"></p>
+<p><strong>提示</strong>：IE 6 等低版本浏览器不支持固定定位。</p>
+<h4 id="1-3-5-粘性定位-sticky-了解"><a href="#1-3-5-粘性定位-sticky-了解" class="headerlink" title="1.3.5 粘性定位(sticky) - 了解"></a>1.3.5 粘性定位(sticky) - 了解</h4><ul>
+<li><p><strong>粘性定位</strong>可以被认为是相对定位和固定定位的混合。 Sticky  粘性的 </p>
+</li>
+<li><p>语法：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">选择器 &#123; </span><br><span class="line">    position: sticky; </span><br><span class="line">    top: 10px; </span><br><span class="line">&#125;</span><br><span class="line">  </span><br></pre></td></tr></table></figure></li>
+<li><p>粘性定位的特点：</p>
+<p>1.以浏览器的可视窗口为参照点移动元素（固定定位特点）</p>
+<p>2.粘性定位占有原先的位置（相对定位特点）</p>
+<p>3.必须添加 top 、left、right、bottom <strong>其中一个</strong>才有效</p>
+<p>跟页面滚动搭配使用。 兼容性较差，IE 不支持。</p>
+</li>
+</ul>
+<h4 id="1-3-6-定位总结"><a href="#1-3-6-定位总结" class="headerlink" title="1.3.6 定位总结"></a>1.3.6 定位总结</h4><table>
+<thead>
+<tr>
+<th><strong>定位模式</strong></th>
+<th><strong>是否脱标</strong></th>
+<th><strong>移动位置</strong></th>
+<th><strong>是否常用</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static   静态定位</td>
+<td>否</td>
+<td>不能使用边偏移</td>
+<td>很少</td>
+</tr>
+<tr>
+<td><strong>relative 相对定位</strong></td>
+<td><strong>否 (占有位置)</strong></td>
+<td><strong>相对于自身位置移动</strong></td>
+<td><strong>基本单独使用</strong></td>
+</tr>
+<tr>
+<td><strong>absolute绝对定位</strong></td>
+<td><strong>是（不占有位置）</strong></td>
+<td><strong>带有定位的父级</strong></td>
+<td><strong>要和定位父级元素搭配使用</strong></td>
+</tr>
+<tr>
+<td><strong>fixed 固定定位</strong></td>
+<td><strong>是（不占有位置）</strong></td>
+<td><strong>浏览器可视区</strong></td>
+<td><strong>单独使用，不需要父级</strong></td>
+</tr>
+<tr>
+<td>sticky 粘性定位</td>
+<td>否   (占有位置)</td>
+<td>浏览器可视区</td>
+<td>当前阶段少</td>
+</tr>
+</tbody></table>
+<ul>
+<li><p>一定记住 相对定位、固定定位、绝对定位 两个大的特点： 1. 是否占有位置（脱标否） 2. 以谁为基准点移动位置。</p>
+</li>
+<li><p>学习定位重点学会子绝父相。</p>
+</li>
+<li><p>注意：</p>
+</li>
+</ul>
+<ol>
+<li><strong>边偏移</strong>需要和<strong>定位模式</strong>联合使用，<strong>单独使用无效</strong>；</li>
+<li><code>top</code> 和 <code>bottom</code> 不要同时使用；</li>
+<li><code>left</code> 和 <code>right</code> 不要同时使用。</li>
+</ol>
+<hr>
+<h2 id="2-综合案例：学成在线-hot-模块添加"><a href="#2-综合案例：学成在线-hot-模块添加" class="headerlink" title="2. 综合案例：学成在线-hot  模块添加"></a>2. 综合案例：学成在线-hot  模块添加</h2><h3 id="2-1-案例截图："><a href="#2-1-案例截图：" class="headerlink" title="2. 1 案例截图："></a><strong>2. 1 案例截图</strong>：</h3><p><img src="images/1571385860679.png" alt="1571385860679"> </p>
+<h3 id="2-2-案例分析"><a href="#2-2-案例分析" class="headerlink" title="2.2 案例分析"></a>2.2 案例分析</h3><ol>
+<li>一个大的 <code>li</code> 中包含 一个课程图片，课程介绍文字信息，还有hot的小图标；</li>
+<li>hot图片<strong>重叠</strong>在课程图片上面—— 脱标，不占位置，需要使用<strong>绝对定位</strong>；</li>
+<li>hot图片<strong>重叠</strong>在<strong>li的右上方 —— 需要</strong>使用边偏移确定准确位置。</li>
+</ol>
+<h3 id="2-3-案例小结"><a href="#2-3-案例小结" class="headerlink" title="2.3 案例小结"></a>2.3 案例小结</h3><ol>
+<li><strong>子绝父相</strong> —— <strong>子元素</strong>使用<strong>绝对定位</strong>，<strong>父元素</strong>使用<strong>相对定位</strong>；</li>
+<li><strong>与浮动的对比</strong>：<ul>
+<li><strong>绝对定位</strong>：脱标，<strong>利用边偏移指定准确位置</strong>；</li>
+<li><strong>浮动</strong>：脱标，不能指定准确位置，<strong>让多个块级元素在一行显示</strong>。</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>课堂练习：模拟老师的随堂案例完成<strong>哈根达斯</strong>案例（5 分钟）。</p>
+</blockquote>
+<p>结构修改：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 修改.box-bd里面的li标签内容，添加一个hot图标 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span></span><br><span class="line">	 <span class="comment">&lt;!-- 添加hot小图片 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">em</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;images/hot.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">em</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;images/pic.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h4</span>&gt;</span></span><br><span class="line">        Think PHP 5.0 博客系统实战项目演练</span><br><span class="line">    <span class="tag">&lt;/<span class="name">h4</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;info&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span>&gt;</span>高级<span class="tag">&lt;/<span class="name">span</span>&gt;</span> • 1125人在学习</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>样式修改：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.box-bd</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span> &#123;</span><br><span class="line">    <span class="comment">/* 子绝父相 */</span></span><br><span class="line">    <span class="comment">/* 父元素相对定位 */</span></span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">float</span>: left;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">228px</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">270px</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">margin-right</span>: <span class="number">15px</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">15px</span>;</span><br><span class="line">   </span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.box-bd</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span> &gt; <span class="selector-tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.box-bd</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span> <span class="selector-tag">h4</span> &#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">20px</span> <span class="number">20px</span> <span class="number">20px</span> <span class="number">25px</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">14px</span>;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#050505</span>;</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="number">400</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.box-bd</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span> <span class="selector-tag">em</span> &#123;</span><br><span class="line">     <span class="comment">/* 子元素绝对定位 */</span></span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">right</span>: -<span class="number">4px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<hr>
+<h2 id="3-定位-position-的应用"><a href="#3-定位-position-的应用" class="headerlink" title="3. 定位(position)的应用"></a>3. 定位(position)的应用</h2><h3 id="3-1-固定定位小技巧：-固定在版心左侧位置。"><a href="#3-1-固定定位小技巧：-固定在版心左侧位置。" class="headerlink" title="3.1.  固定定位小技巧： 固定在版心左侧位置。"></a>3.1.  固定定位小技巧： 固定在版心左侧位置。</h3><p>小算法：</p>
+<p>1.让固定定位的盒子 left: 50%.  走到浏览器可视区（也可以看做版心） 的一半位置。</p>
+<p>2.让固定定位的盒子 margin-left: 版心宽度的一半距离。  多走 版心宽度的一半位置</p>
+<p>就可以让固定定位的盒子<strong>贴着版心右侧对齐</strong>了。</p>
+<img src='images/1571388901848.png' width='350'>
+
+
+
+<img src='images/1571389108805.png' width='300'>
+
+
+
+<p>案例效果：</p>
+<p><img src="images/1571389241926.png" alt="1571389241926"></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-class">.w</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">800px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">1400px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">background-color</span>: pink;</span></span><br><span class="line"><span class="css">            <span class="attribute">margin</span>: <span class="number">0</span> auto;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">        <span class="selector-class">.fixed</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">position</span>: fixed;</span></span><br><span class="line"><span class="css">            <span class="comment">/* 1. 走浏览器宽度的一半 */</span></span></span><br><span class="line"><span class="css">            <span class="attribute">left</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="css">            <span class="comment">/* 2. 利用margin 走版心盒子宽度的一半距离 */</span></span></span><br><span class="line"><span class="css">            <span class="attribute">margin-left</span>: <span class="number">405px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">50px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">background-color</span>: skyblue;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;fixed&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;w&quot;</span>&gt;</span>版心盒子 800像素<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  </span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="3-2-堆叠顺序（z-index）"><a href="#3-2-堆叠顺序（z-index）" class="headerlink" title="3.2. 堆叠顺序（z-index）"></a>3.2. 堆叠顺序（z-index）</h3><ul>
+<li><p>在使用<strong>定位</strong>布局时，可能会<strong>出现盒子重叠的情况</strong>。此时，可以使用 <strong>z-index</strong> 来控制盒子的前后次序 (z轴)</p>
+</li>
+<li><p>语法：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">选择器 &#123; </span><br><span class="line">	z-index: 1; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><p><code>z-index</code> 的特性如下：</p>
+<ol>
+<li><strong>属性值</strong>：<strong>正整数</strong>、<strong>负整数</strong>或 <strong>0</strong>，默认值是 0，数值越大，盒子越靠上；    </li>
+<li>如果<strong>属性值相同</strong>，则按照书写顺序，<strong>后来居上</strong>；</li>
+<li>数字后面<strong>不能加单位</strong>。</li>
+</ol>
+<p><strong>注意</strong>：<code>z-index</code> 只能应用于<strong>相对定位</strong>、<strong>绝对定位</strong>和<strong>固定定位</strong>的元素，其他<strong>标准流</strong>、<strong>浮动</strong>和<strong>静态定位</strong>无效。</p>
+</li>
+</ul>
+<ul>
+<li>应用 <code>z-index</code> 层叠等级属性可以<strong>调整盒子的堆叠顺序</strong>。如下图所示：</li>
+</ul>
+<p><img src="images/12_zindex%E7%A4%BA%E6%84%8F%E5%9B%BE.png" alt="zindex示意图"></p>
+<blockquote>
+<p>案例演示：堆叠顺序。</p>
+</blockquote>
+<hr>
+<h2 id="4-定位-position-的拓展"><a href="#4-定位-position-的拓展" class="headerlink" title="4. 定位(position)的拓展"></a>4. 定位(position)的拓展</h2><h3 id="4-1-绝对定位的盒子居中"><a href="#4-1-绝对定位的盒子居中" class="headerlink" title="4.1 绝对定位的盒子居中"></a>4.1 绝对定位的盒子居中</h3><blockquote>
+<p><strong>注意</strong>：加了<strong>绝对定位/固定定位的盒子</strong>不能通过设置 <code>margin: auto</code> 设置<strong>水平居中</strong>。</p>
+<p>但是可以通过以下计算方法实现水平和垂直居中，可以按照下图的方法：</p>
+</blockquote>
+<p><img src="images/10_%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD.png" alt="绝对定位水平居中"></p>
+<ol>
+<li><code>left: 50%;</code>：让<strong>盒子的左侧</strong>移动到<strong>父级元素的水平中心位置</strong>；</li>
+<li><code>margin-left: -100px;</code>：让盒子<strong>向左</strong>移动<strong>自身宽度的一半</strong>。</li>
+</ol>
+<p><strong>盒子居中定位示意图</strong></p>
+<p><img src="images/11_%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E5%B1%85%E4%B8%AD%E7%A4%BA%E6%84%8F%E5%9B%BE.png" alt="绝对定位居中示意图"></p>
+<h3 id="4-2-定位特殊特性"><a href="#4-2-定位特殊特性" class="headerlink" title="4.2 定位特殊特性"></a>4.2 定位特殊特性</h3><p>绝对定位和固定定位也和浮动类似。</p>
+<p>1.行内元素添加绝对或者固定定位，可以直接设置高度和宽度。</p>
+<p>2.块级元素添加绝对或者固定定位，如果不给宽度或者高度，默认大小是内容的大小。</p>
+<p>前面我们讲过， display 是 显示模式， 可以改变显示模式有以下方式:</p>
+<ul>
+<li>可以用inline-block  转换为行内块</li>
+<li>可以用浮动 float 默认转换为行内块（类似，并不完全一样，因为浮动是脱标的）</li>
+<li>绝对定位和固定定位也和浮动类似， 默认转换的特性 转换为行内块。</li>
+</ul>
+<p>所以说， 一个行内的盒子，如果加了<strong>浮动</strong>、<strong>固定定位</strong>和<strong>绝对定位</strong>，不用转换，就可以给这个盒子直接设置宽度和高度等。</p>
+<h3 id="4-3-脱标的盒子不会触发外边距塌陷"><a href="#4-3-脱标的盒子不会触发外边距塌陷" class="headerlink" title="4.3 脱标的盒子不会触发外边距塌陷"></a>4.3 脱标的盒子不会触发外边距塌陷</h3><p>浮动元素、<strong>绝对定位(固定定位）</strong>元素的都不会触发外边距合并的问题。 （我们以前是用padding border overflow解决的）</p>
+<p>也就是说，我们给盒子改为了浮动或者定位，就不会有垂直<strong>外边距合并的问题</strong>了。</p>
+<h3 id="4-4-绝对定位（固定定位）会完全压住盒子"><a href="#4-4-绝对定位（固定定位）会完全压住盒子" class="headerlink" title="4.4 绝对定位（固定定位）会完全压住盒子"></a>4.4 绝对定位（固定定位）会完全压住盒子</h3><p>浮动元素不同，只会压住它下面标准流的盒子，但是不会压住下面标准流盒子里面的文字（图片）</p>
+<p>但是绝对定位（固定定位） 会压住下面标准流所有的内容。</p>
+<p>浮动之所以不会压住文字，因为浮动产生的目的最初是为了做文字环绕效果的。 文字会围绕浮动元素</p>
+<img src='images/文字环绕图片.png'>
+---
+## 5. 综合案例 - 淘宝轮播图(重点)
+
+<h3 id="5-1-效果图"><a href="#5-1-效果图" class="headerlink" title="5.1 效果图"></a>5.1 效果图</h3><img src='images/淘宝焦点图.png' width='600'>
+
+<h3 id="5-2-布局分析"><a href="#5-2-布局分析" class="headerlink" title="5.2 布局分析"></a>5.2 布局分析</h3><p><img src="images/1571397019689.png" alt="1571397019689"></p>
+<h3 id="5-3-步骤"><a href="#5-3-步骤" class="headerlink" title="5.3 步骤"></a>5.3 步骤</h3><ol>
+<li><p>大盒子我们类名为：  tb-promo      淘宝广告</p>
+</li>
+<li><p>里面先放一张图片。</p>
+</li>
+<li><p>左右两个按钮 用链接就好了。   左箭头 prev    右箭头  next   </p>
+<p>​    左按钮样式（border-radius：左上，右上，右下，左下），</p>
+<p>​    右按钮定位，提取左右按钮共同的样式代码（并集选择器）</p>
+</li>
+<li><p>底侧小圆点ul 继续做。 类名为 promo-nav     </p>
+<p>​    中间长方形椭圆 ul的定位（水平居中，离底部15px）  </p>
+<p>​    长方形需要五个小圆点，ul无序列表，li浮动，椭圆中小圆点的样式</p>
+</li>
+</ol>
+<h3 id="5-4-知识点：圆角矩形设置4个角"><a href="#5-4-知识点：圆角矩形设置4个角" class="headerlink" title="5.4 知识点：圆角矩形设置4个角"></a>5.4 知识点：圆角矩形设置4个角</h3><p>圆角矩形可以为4个角分别设置圆度， 但是是有顺序的</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">border-top-left-radius:20px;</span><br><span class="line">border-top-right-radius:20px;</span><br><span class="line">border-bottom-right-radius:20px;</span><br><span class="line">border-bottom-left-radius:20px;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>如果4个角，数值相同</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br></pre></td></tr></table></figure></li>
+<li><p>里面数值不同，我们也可以按照简写的形式，具体格式如下:</p>
+</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">border-radius</span>: 左上角 右上角  右下角  左下角;</span><br></pre></td></tr></table></figure>
+
+<p>还是遵循的顺时针。</p>
+<h3 id="5-5-代码参考"><a href="#5-5-代码参考" class="headerlink" title="5.5 代码参考"></a>5.5 代码参考</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;ie=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>淘宝轮播图做法<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        * &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">margin</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">padding</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">        <span class="selector-tag">li</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">list-style</span>: none;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-class">.tb-promo</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">position</span>: relative;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">520px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">280px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">background-color</span>: pink;</span></span><br><span class="line"><span class="css">            <span class="attribute">margin</span>: <span class="number">100px</span> auto;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-class">.tb-promo</span> <span class="selector-tag">img</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">520px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">280px</span>;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css"></span></span><br><span class="line"><span class="css">        <span class="comment">/* 并集选择器可以集体声明相同的样式 */</span></span></span><br><span class="line"><span class="css">        <span class="selector-class">.prev</span>,</span></span><br><span class="line"><span class="css">        <span class="selector-class">.next</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="css">            <span class="comment">/* 绝对定位的盒子垂直居中 */</span></span></span><br><span class="line"><span class="css">            <span class="attribute">top</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">margin-top</span>: -<span class="number">15px</span>;</span></span><br><span class="line"><span class="css">            <span class="comment">/* 加了绝对定位的盒子可以直接设置高度和宽度 */</span></span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, .<span class="number">3</span>);</span></span><br><span class="line"><span class="css">            <span class="attribute">text-align</span>: center;</span></span><br><span class="line"><span class="css">            <span class="attribute">line-height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">color</span>: <span class="number">#fff</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">text-decoration</span>: none;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-class">.prev</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="css">            <span class="comment">/* border-radius: 15px; */</span></span></span><br><span class="line"><span class="css">            <span class="attribute">border-top-right-radius</span>: <span class="number">15px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">border-bottom-right-radius</span>: <span class="number">15px</span>;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-class">.next</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="comment">/* 如果一个盒子既有left属性也有right属性，则默认会执行 left属性 同理  top  bottom  会执行 top */</span></span></span><br><span class="line"><span class="css">            <span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="css">            <span class="comment">/* border-radius: 15px; */</span></span></span><br><span class="line"><span class="css">            <span class="attribute">border-top-left-radius</span>: <span class="number">15px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">border-bottom-left-radius</span>: <span class="number">15px</span>;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">        <span class="selector-class">.promo-nav</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="css">            <span class="attribute">bottom</span>: <span class="number">15px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">left</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">margin-left</span>: -<span class="number">35px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">70px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">13px</span>;</span></span><br><span class="line"><span class="css">            <span class="comment">/* background-color: pink; */</span></span></span><br><span class="line"><span class="css">            <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>, .<span class="number">3</span>);</span></span><br><span class="line"><span class="css">            <span class="attribute">border-radius</span>: <span class="number">7px</span>;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">        <span class="selector-class">.promo-nav</span> <span class="selector-tag">li</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">float</span>: left;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">background-color</span>: <span class="number">#fff</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">margin</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">        <span class="comment">/* 不要忘记选择器权重的问题 */</span></span></span><br><span class="line"><span class="css">       <span class="selector-class">.promo-nav</span> <span class="selector-class">.selected</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">background-color</span>: <span class="number">#ff5000</span>;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tb-promo&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;images/tb.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 左侧按钮箭头 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span> <span class="attr">class</span>=<span class="string">&quot;prev&quot;</span>&gt;</span> <span class="symbol">&amp;lt;</span> <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 右侧按钮箭头 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span> <span class="attr">class</span>=<span class="string">&quot;next&quot;</span>&gt;</span> <span class="symbol">&amp;gt;</span> <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 小圆点 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">&quot;promo-nav&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;selected&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+<hr>
+<h2 id="6-网页布局总结"><a href="#6-网页布局总结" class="headerlink" title="6. 网页布局总结"></a>6. 网页布局总结</h2><p>通过盒子模型，清楚知道大部分html标签是一个盒子。</p>
+<p>通过CSS浮动、定位 可以让每个盒子排列成为网页。</p>
+<p>一个完整的网页，是标准流、浮动、定位一起完成布局的，每个都有自己的专门用法。</p>
+<h3 id="6-1-标准流"><a href="#6-1-标准流" class="headerlink" title="6.1. 标准流"></a>6.1. 标准流</h3><p>可以让盒子上下排列或者左右排列，<strong>垂直的块级盒子显示就用标准流布局</strong>。</p>
+<h3 id="6-2-浮动"><a href="#6-2-浮动" class="headerlink" title="6.2. 浮动"></a>6.2. 浮动</h3><p>可以让多个块级元素一行显示或者左右对齐盒子，<strong>多个块级盒子水平显示就用浮动布局</strong></p>
+<h3 id="6-3-定位"><a href="#6-3-定位" class="headerlink" title="6.3. 定位"></a>6.3. 定位</h3><p>定位最大的特点是有层叠的概念，就是可以让多个盒子前后叠压来显示。<strong>如果元素自由在某个盒子内移动就用定位布局。</strong></p>
+<hr>
+<h2 id="7-元素的显示与隐藏"><a href="#7-元素的显示与隐藏" class="headerlink" title="7. 元素的显示与隐藏"></a>7. 元素的显示与隐藏</h2><ul>
+<li><p>目的（本质）</p>
+<p>​    让一个元素在页面中消失或者显示出来</p>
+</li>
+<li><p>场景</p>
+<p>​    类似网站广告，当我们点击关闭就不见了，但是我们重新刷新页面，会重新出现！</p>
+</li>
+</ul>
+<h3 id="7-1-display-显示（重点）"><a href="#7-1-display-显示（重点）" class="headerlink" title="7.1. display 显示（重点）"></a>7.1. display 显示（重点）</h3><ul>
+<li><p>display 设置或检索对象是否及如何显示。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">display: none 隐藏对象</span><br><span class="line"></span><br><span class="line">display：block 除了转换为块级元素之外，同时还有显示元素的意思。</span><br></pre></td></tr></table></figure></li>
+<li><p>特点： display 隐藏元素后，<strong>不再占</strong>有原来的位置。</p>
+</li>
+<li><p>后面应用及其广泛，搭配 JS 可以做很多的网页特效。实际开发场景：</p>
+<blockquote>
+<p>配合后面js做特效，比如下拉菜单，原先没有，鼠标经过，显示下拉菜单， 应用极为广泛</p>
+</blockquote>
+</li>
+</ul>
+<img src="images/29none.png">
+
+<blockquote>
+</blockquote>
+<h3 id="7-2-visibility-可见性-（了解）"><a href="#7-2-visibility-可见性-（了解）" class="headerlink" title="7.2. visibility 可见性 （了解）"></a>7.2. visibility 可见性 （了解）</h3><ul>
+<li><p>visibility 属性用于指定一个元素应可见还是隐藏。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">visibility：visible ; 　元素可视</span><br><span class="line"></span><br><span class="line">visibility：hidden; 　  元素隐藏</span><br></pre></td></tr></table></figure></li>
+<li><p>特点：<strong>visibility 隐藏元素后，继续占有原来的位置</strong>。（停职留薪）</p>
+</li>
+<li><p>如果隐藏元素想要原来位置， 就用 visibility：hidden</p>
+</li>
+<li><p>如果隐藏元素不想要原来位置， 就用 display：none  (用处更多 重点）</p>
+</li>
+</ul>
+<img src="images/30visibility.png">
+
+<h3 id="7-3-overflow-溢出（重点）"><a href="#7-3-overflow-溢出（重点）" class="headerlink" title="7.3. overflow 溢出（重点）"></a>7.3. overflow 溢出（重点）</h3><ul>
+<li>overflow 属性指定了如果内容溢出一个元素的框（超过其指定高度及宽度） 时，会发生什么。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>visible</strong></td>
+<td>不剪切内容也不添加滚动条</td>
+</tr>
+<tr>
+<td><strong>hidden</strong></td>
+<td>不显示超过对象尺寸的内容，超出的部分隐藏掉</td>
+</tr>
+<tr>
+<td><strong>scroll</strong></td>
+<td>不管超出内容否，总是显示滚动条</td>
+</tr>
+<tr>
+<td><strong>auto</strong></td>
+<td>超出自动显示滚动条，不超出不显示滚动条</td>
+</tr>
+</tbody></table>
+<ul>
+<li> 一般情况下，我们都不想让溢出的内容显示出来，因为溢出的部分会影响布局。</li>
+<li>但是如果有定位的盒子， 请慎用overflow:hidden  因为它会隐藏多余的部分。</li>
+</ul>
+<img src="images/33overflow.png">
+
+
+
+<ul>
+<li>实际开发场景：</li>
+</ul>
+<ol>
+<li>清除浮动</li>
+<li>隐藏超出内容，隐藏掉,  不允许内容超过父盒子。</li>
+</ol>
+<h3 id="7-4-显示与隐藏总结"><a href="#7-4-显示与隐藏总结" class="headerlink" title="7.4. 显示与隐藏总结"></a>7.4. 显示与隐藏总结</h3><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>区别</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>display 显示     （重点）</strong></td>
+<td>隐藏对象，不保留位置</td>
+<td>配合后面js做特效，比如下拉菜单，原先没有，鼠标经过，显示下拉菜单， 应用极为广泛</td>
+</tr>
+<tr>
+<td><strong>visibility 可见性 （了解）</strong></td>
+<td>隐藏对象，保留位置</td>
+<td>使用较少</td>
+</tr>
+<tr>
+<td><strong>overflow 溢出（重点）</strong></td>
+<td>只是隐藏超出大小的部分</td>
+<td>1. 可以清除浮动  2. 保证盒子里面的内容不会超出该盒子范围</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="8-综合案例：土豆网鼠标经过显示遮罩"><a href="#8-综合案例：土豆网鼠标经过显示遮罩" class="headerlink" title="8 综合案例：土豆网鼠标经过显示遮罩"></a>8 综合案例：土豆网鼠标经过显示遮罩</h2><h3 id="8-1-效果图"><a href="#8-1-效果图" class="headerlink" title="8.1. 效果图"></a>8.1. 效果图</h3><img src="images/土豆网案例.png">
+
+<h3 id="8-2-案例目标"><a href="#8-2-案例目标" class="headerlink" title="8.2. 案例目标"></a>8.2. 案例目标</h3><p>1.练习元素的显示与隐藏</p>
+<p>2.练习元素的定位</p>
+<h3 id="8-3-核心原理"><a href="#8-3-核心原理" class="headerlink" title="8.3. 核心原理"></a>8.3. 核心原理</h3><p>原先半透明的黑色遮罩看不见， 鼠标经过 大盒子，就显示出来。</p>
+<p>遮罩的盒子不占有位置， 就需要用绝对定位 和 display  配合使用。</p>
+<h3 id="8-4-代码参考"><a href="#8-4-代码参考" class="headerlink" title="8.4. 代码参考"></a>8.4. 代码参考</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;ie=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>仿土豆网显示隐藏遮罩案例<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-class">.tudou</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">position</span>: relative;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">444px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">320px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">background-color</span>: pink;</span></span><br><span class="line"><span class="css">            <span class="attribute">margin</span>: <span class="number">30px</span> auto;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-class">.tudou</span> <span class="selector-tag">img</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">100%</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">100%</span>;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-class">.mask</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="comment">/* 隐藏遮罩层 */</span></span></span><br><span class="line"><span class="css">            <span class="attribute">display</span>: none;</span></span><br><span class="line"><span class="css">            <span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="css">            <span class="attribute">top</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">100%</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">100%</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, .<span class="number">4</span>) <span class="built_in">url</span>(<span class="string">images/arr.png</span>) no-repeat center;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css"></span></span><br><span class="line"><span class="css">        <span class="comment">/* 当我们鼠标经过了 土豆这个盒子，就让里面遮罩层显示出来 */</span></span></span><br><span class="line"><span class="css">        <span class="selector-class">.tudou</span><span class="selector-pseudo">:hover</span> <span class="selector-class">.mask</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="comment">/* 而是显示元素 */</span></span></span><br><span class="line"><span class="css">            <span class="attribute">display</span>: block;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tudou&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mask&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;images/tudou.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tudou&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mask&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;images/tudou.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tudou&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mask&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;images/tudou.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tudou&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mask&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;images/tudou.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">knull</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://k-null.github.io/2021/11/02/html-css-06/">https://k-null.github.io/2021/11/02/html-css-06/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">knull</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/HTML/">
+                                    <span class="chip bg-color">HTML</span>
+                                </a>
+                            
+                                <a href="/tags/CSS/">
+                                    <span class="chip bg-color">CSS</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+        <div class="disqus-card card" data-aos="fade-up">
+    <div id="disqus_thread" class="card-content">
+        <noscript>Please enable JavaScript to view the
+            <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+    </div>
+</div>
+
+<script type="text/javascript">
+    disqus_config = function () {
+        this.page.url = 'https://k-null.github.io/2021/11/02/html-css-06/';
+        this.page.identifier = '/2021/11/02/html-css-06/';
+        this.page.title = 'HTML笔记-6';
+    };
+    let disqus_shortname = '';
+
+    (function () { // DON'T EDIT BELOW THIS LINE
+        let d = document, s = d.createElement('script');
+        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'MzzBEMaQ2oeQ1ipPKtv6VaEz-gzGzoHsz',
+        appKey: 'yqTzPU4HVQfvqeb4zRBiGQkC',
+        notify: 'true' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'knull go go'
+    });
+</script>
+
+<!--酷Q推送-->
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2021/11/02/html-css-07/">
+                    <div class="card-image">
+                        
+                        <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.a8oZMxGm-X0PvaLghp0cfAHaEK?pid=ImgDet&rs=1" class="responsive-img" alt="HTML笔记-7">
+                        
+                        <span class="card-title">HTML笔记-7</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            一篇文章学会html
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-02
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/HTML/" class="post-category">
+                                    HTML
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/HTML/">
+                        <span class="chip bg-color">HTML</span>
+                    </a>
+                    
+                    <a href="/tags/CSS/">
+                        <span class="chip bg-color">CSS</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/11/02/html-css-08/">
+                    <div class="card-image">
+                        
+                        <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.a8oZMxGm-X0PvaLghp0cfAHaEK?pid=ImgDet&rs=1" class="responsive-img" alt="HTML笔记-8-新特性">
+                        
+                        <span class="card-title">HTML笔记-8-新特性</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            一篇文章学会html
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/HTML/" class="post-category">
+                                    HTML
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/HTML/">
+                        <span class="chip bg-color">HTML</span>
+                    </a>
+                    
+                    <a href="/tags/CSS/">
+                        <span class="chip bg-color">CSS</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Knull的个人博客<br />'
+            + '文章作者: Knull<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="kugou"
+                   type="song"
+                   id="DCFC3006F55F0D9AAA9FD01A8FC12835"
+                   fixed='true'
+                   autoplay='true'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2021</span>
+            
+            <a href="/about" target="_blank">Knull</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">32k</span>
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/K-null" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:a2494396597@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2494396597" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2494396597" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    
+
+    
+
+    <!-- 雪花特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/"><\/script>');
+            }
+        </script>
+    
+
+    <!-- 鼠标星星特效 -->
+    
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i["DaoVoiceObject"] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            a.charset = "utf-8";
+            m.parentNode.insertBefore(a, m)
+        })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') +
+            "//widget.daovoice.io/widget/6984b559.js", "daovoice")
+        daovoice('init', {
+            app_id: "caa401cb"
+        });
+        daovoice('update');
+    </script>
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
+
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+
+</html>

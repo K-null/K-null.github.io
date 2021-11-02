@@ -1,0 +1,1919 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML笔记-2, Knull的个人博客">
+    <meta name="description" content="一篇文章学会html">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>HTML笔记-2 | Knull的个人博客</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+
+   <style>
+    body{
+       background-image: url(https://images.alphacoders.com/205/thumb-1920-205913.jpg);
+       background-repeat:no-repeat;
+       background-size: 100% 100%;
+       background-attachment:fixed;
+    }
+</style>
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Knull的个人博客</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Knull的个人博客</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/K-null/K-null.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/K-null/K-null.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://tse2-mm.cn.bing.net/th/id/OIP-C.a8oZMxGm-X0PvaLghp0cfAHaEK?pid=ImgDet&rs=1')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">HTML笔记-2</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/HTML/">
+                                <span class="chip bg-color">HTML</span>
+                            </a>
+                        
+                            <a href="/tags/CSS/">
+                                <span class="chip bg-color">CSS</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/HTML/" class="post-category">
+                                HTML
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-11-02
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2021-11-02
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    5.5k
+                </div>
+                
+
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><h3 id="表格的主要作用"><a href="#表格的主要作用" class="headerlink" title="表格的主要作用"></a>表格的主要作用</h3><pre><code>1.表格主要用于显示、展示数据，因为它可以让数据显示的非常的规整，可读性非常好。
+</code></pre>
+<p>特别是后台展示数据的时候，能够熟练运用表格就显得很重要。<br>一个清爽简约的表格能够把繁杂的数据表现得很有条理</p>
+<pre><code>2.表格不是用来布局页面的,而是用来展示数据的。
+</code></pre>
+<p>​    <img src="images/%E8%A1%A8%E6%A0%BC1.png"><br>    3.表格的具体用法：<br>         <table><br>            <tr><br>                <td>单元格内的文字</td><br>                …<br>            </tr><br>            …<br>        </table><br>        1.<table> </table> 是用于定义表格的标签。<br>        2.<tr> </tr> 标签用于定义表格中的行，必须嵌套在 <table> </table>标签中。<br>        3.<td> </td> 用于定义表格中的单元格，必须嵌套在<tr></tr>标签中。<br>        4.字母 td 指表格数据（table data），即数据单元格的内容。</p>
+<h3 id="表头单元格标签："><a href="#表头单元格标签：" class="headerlink" title="表头单元格标签："></a>表头单元格标签：</h3><pre><code>    表头标签的具体实现：
+     &lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;姓名&lt;/th&gt;
+            ...
+        &lt;/tr&gt;
+        ...
+    &lt;/table&gt;
+    1.一般表头单元格位于表格的第一行或第一列，表头单元格里面的文本内容加粗居中显示.
+        &lt;th&gt; 标签表示 HTML 表格的表头部分(table head 的缩写)
+    2.一般表头单元格位于表格的第一行或第一列，表头单元格里面的文本内容加粗居中显示.
+        &lt;th&gt; 标签表示 HTML 表格的表头部分(table head 的缩写)
+5.表头单元格也是单元格，常用于表格第一行突出重要性，表头单元格里面的文字会加粗居中
+</code></pre>
+<h3 id="表格属性："><a href="#表格属性：" class="headerlink" title="表格属性："></a>表格属性：</h3><pre><code>1.表格标签这部分属性我们实际开发我们不常用，后面通过 CSS 来设置.
+</code></pre>
+<p>​        <img src="images/%E8%A1%A8%E6%A0%BC%E5%B1%9E%E6%80%A7.png"><br>    完成下面综合案例：</p>
+<p>​    <img src="images/%E8%A1%A8%E6%A0%BC%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B.png"></p>
+<p>​    <strong>思路：</strong></p>
+<p><strong>先制作表格的结构.</strong>  </p>
+<p>1.第一行里面是 th 表头单元格</p>
+<p>2.第二行开始里面是 td 普通单元格单元格里面可以放任何元素</p>
+<p>3.文字链接图片等都可以</p>
+<p><strong>后书写表格属性</strong></p>
+<p>1.用到宽度高度边框cellpadding 和 cellspacing</p>
+<p>2.表格浏览器中对齐 align   </p>
+<h3 id="表格结构标签："><a href="#表格结构标签：" class="headerlink" title="表格结构标签："></a>表格结构标签：</h3><pre><code>使用场景:
+    因为表格可能很长,为了更好的表示表格的语义，可以将表格分割成 表格头部和表格主体两大部分.
+在表格标签中，分别用：&lt;thead&gt;标签 表格的头部区域、&lt;tbody&gt;标签 表格的主体区域. 这样可以更好的分清表格结构。
+</code></pre>
+<p><img src="images/%E8%A1%A8%E6%A0%BC%E7%BB%93%E6%9E%84%E6%A0%87%E7%AD%BE.png"></p>
+<p><strong>总结:</strong><br>    1. <thead></thead>：用于定义表格的头部。<thead> 内部必须拥有 <tr> 标签。 一般是位于第一行。<br>    2. <tbody></tbody>：用于定义表格的主体，主要用于放数据本体 。<br>    3.  以上标签都是放在 <table></table> 标签中。</p>
+<h3 id="合并单元格："><a href="#合并单元格：" class="headerlink" title="合并单元格："></a>合并单元格：</h3><pre><code>特殊情况下,可以把多个单元格合并为一个单元格,  这里同学们会最简单的合并单元格即可.
+1.合并单元格方式
+2.目标单元格
+3.合并单元格的步骤
+如下图：
+</code></pre>
+<p><img src="images/%E5%90%88%E5%B9%B6%E5%8D%95%E5%85%83%E6%A0%BC.png"></p>
+<p><strong>合并单元格方式：</strong></p>
+<p><strong>跨行合并</strong>：rowspan=”合并单元格的个数”     </p>
+<p>​    最上侧单元格为目标单元格, 写合并代码</p>
+<p> <strong>跨列合并</strong>：colspan=”合并单元格的个数”</p>
+<p>​    最左侧单元格为目标单元格, 写合并代码</p>
+<p><strong>合并单元格三步曲：</strong></p>
+<p>先确定是跨行还是跨列合并。</p>
+<p>找到目标单元格. 写上合并方式 = 合并的单元格数量。</p>
+<p>比如：<td colspan=“2”></td>。删除多余的单元格。</p>
+<p><strong>表格总结</strong></p>
+<p>​    表格学习整体可以分为三大部分:</p>
+<p><strong>表格的相关标签</strong></p>
+<p>​    table   thead  body  tr  th  td </p>
+<p><strong>表格的相关属性</strong></p>
+<p>​    cellspacing    cellpadding     width  height  border </p>
+<p><strong>合并单元格</strong></p>
+<h2 id="​-rowspan-collspan"><a href="#​-rowspan-collspan" class="headerlink" title="​      rowspan   collspan"></a>​      rowspan   collspan</h2><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><pre><code>表格是用来显示数据的，那么列表就是用来布局的。 
+列表最大的特点就是整齐、整洁、有序，它作为布局会更加自由和方便。
+根据使用情景不同，列表可以分为三大类：无序列表、有序列表和自定义列表。
+</code></pre>
+<h3 id="无序："><a href="#无序：" class="headerlink" title="无序："></a>无序：</h3><p>​    <img src="images/%E6%97%A0%E5%BA%8F.png"></p>
+<p><code>&lt;ul&gt;</code> 标签表示 HTML 页面中项目的无序列表，一般会以项目符号呈现列表项，而列表项使用 <li> 标签定义。无序列表的基本语法格式如下：<br>   <ul> </p>
+  <li>列表项1</li>   <li>列表项2</li>   <li>列表项3</li>   ... 
+
+</ul>
+
+<ol>
+<li>无序列表的各个列表项之间没有顺序级别之分，是并列的。</li>
+<li><ul></ul> 中只能嵌套 <li></li>，直接在 <ul></ul> 标签中输入其他标签或者文字的做法是不被允许的。</li>
+<li><li> 与 </li> 之间相当于一个容器，可以容纳所有元素。</li>
+<li>无序列表会带有自己的样式属性，但在实际使用时，我们会使用 CSS 来设置。</li>
+</ol>
+<h3 id="有序："><a href="#有序：" class="headerlink" title="有序："></a>有序：</h3><p>​    <img src="images/%E6%9C%89%E5%BA%8F.png"></p>
+<p>有序列表即为有排列顺序的列表，其各个列表项会按照一定的顺序排列定义。在 HTML 标签中，<ol> 标签用于定义有序列表，列表排序以数字来显示，并且使用 <li> 标签来定义列表项。有序列表的基本语法格式如下：</p>
+<ol>   <li>列表项1</li>   <li>列表项2</li>   <li>列表项3</li>   ... </ol>
+
+<ol>
+<li><ol></ol>中只能嵌套<li></li>，直接在<ol></ol>标签中输入其他标签或者文字的做法是不被允许的。</li>
+<li><li> 与 </li>之间相当于一个容器，可以容纳所有元素。</li>
+<li>有序列表会带有自己样式属性，但在实际使用时，我们会使用 CSS 来设置。</li>
+</ol>
+<h3 id="自定义："><a href="#自定义：" class="headerlink" title="自定义："></a>自定义：</h3><p><img src="images/%E8%87%AA%E5%AE%9A%E4%B9%89.png"></p>
+<p>自定义列表的使用场景:自定义列表常用于对术语或名词进行解释和描述，定义列表的列表项前没有任何项目符号。在 HTML 标签中，<dl> 标签用于定义描述列表（或定义列表），该标签会与 <dt>（定义项目/名字）和 <dd>（描述每一个项目/名字）一起使用。语法如下：</p>
+ <dl>   <dt>名词1</dt>   <dd>名词1解释1</dd>   <dd>名词1解释2</dd> </dl>
+
+<h3 id="列表总结"><a href="#列表总结" class="headerlink" title="列表总结"></a>列表总结</h3><h2 id=""><a href="#" class="headerlink" title=""></a><img src="images/%E5%88%97%E8%A1%A8%E6%80%BB%E7%BB%93.png"></h2><h2 id="表单"><a href="#表单" class="headerlink" title="表单"></a>表单</h2><p>现实中的表单：<br><img src="images/%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2.png"></p>
+<h3 id="为什么需要表单："><a href="#为什么需要表单：" class="headerlink" title="为什么需要表单："></a>为什么需要表单：</h3><pre><code>使用表单目的是为了收集用户信息。
+在我们网页中， 我们也需要跟用户进行交互，收集用户资料，此时就需要表单。
+</code></pre>
+<h3 id="表单的组成："><a href="#表单的组成：" class="headerlink" title="表单的组成："></a>表单的组成：</h3><pre><code>在 HTML 中，一个完整的表单通常由表单域、表单控件（也称为表单元素）和 提示信息3个部分构成。
+</code></pre>
+<h3 id="表单域："><a href="#表单域：" class="headerlink" title="表单域："></a>表单域：</h3><pre><code>表单域是一个包含表单元素的区域。
+在 HTML 标签中， &lt;form&gt; 标签用于定义表单域，以实现用户信息的收集和传递。
+&lt;form&gt; 会把它范围内的表单元素信息提交给服务器.
+实现代码：
+&lt;form action=“url地址” method=“提交方式” name=“表单域名称&quot;&gt;各种表单元素控件&lt;/form&gt;
+</code></pre>
+<h3 id="表单域的常用属性："><a href="#表单域的常用属性：" class="headerlink" title="表单域的常用属性："></a>表单域的常用属性：</h3><p><img src="images/%E8%A1%A8%E5%8D%95%E5%B8%B8%E7%94%A8%E5%B1%9E%E6%80%A7.png"></p>
+<p>基础班来说,我们暂时不用表单域提交数据,只需要写上 form 标签即可.  就业班等学习服务器编程阶段会重新讲解.<br>这里只需要记住两点:<br>1.在我们写表单元素之前,应该有个表单域把他们进行包含.<br>2.表单域是 form标签.</p>
+<h3 id="表单控件-表单元素"><a href="#表单控件-表单元素" class="headerlink" title="表单控件(表单元素)"></a>表单控件(表单元素)</h3><p> <input> 表单元素</p>
+<p>在英文单词中，input 是输入的意思，而在表单元素中 <input> 标签用于收集用户信息。在 <input> 标签中，包含一个 type 属性，根据不同的 type 属性值，输入字段拥有很多种形式（可以是文本字段、复选框、掩码后的文本控件、单选按钮、按钮等）。</p>
+<input type="属性值"  />
+
+<p><input /> 标签为单标签 type 属性设置不同的属性值用来指定不同的控件类型</p>
+<p>type 属性的属性值及其描述如下：</p>
+<p><img src="images/%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE.png"></p>
+<p>除 type 属性外，<input>标签还有其他很多属性，其常用属性如下：</p>
+<p><img src="images/%E8%A1%A8%E5%8D%95%E5%85%B6%E4%BB%96%E5%B1%9E%E6%80%A7.png"></p>
+<h3 id="标签"><a href="#标签" class="headerlink" title=" 标签"></a><label> 标签</h3><p><label> 标签为 input 元素定义标注（标签）。<br><label> 标签用于绑定一个表单元素, 当点击<label> 标签内的文本时，浏览器就会自动将焦点(光标)转到或者选择对应的表单元素上,用来增加用户体验.<br>语法：<br>     <label for="sex">男</label><br>    <input type="radio" name="sex"  id="sex" /><br>    核心： <label> 标签的 for 属性应当与相关元素的 id 属性相同。</p>
+<h3 id="表单元素"><a href="#表单元素" class="headerlink" title=" 表单元素"></a><select> 表单元素</h3><p>使用场景: 在页面中，如果有多个选项让用户选择，并且想要节约页面空间时，我们可以使用<select>标签控件定义下拉列表。</p>
+<p><img src="images/%E4%B8%8B%E6%8B%89%E5%88%97%E8%A1%A8.png"></p>
+<p>语法：<br><select><br>   <option>选项1</option><br>   <option>选项2</option><br>   <option>选项3</option><br>   …<br> </select></p>
+<h3 id="表单元素-1"><a href="#表单元素-1" class="headerlink" title=" 表单元素"></a><textarea> 表单元素</h3><ol>
+<li>使用场景: 当用户输入内容较多的情况下，我们就不能使用文本框表单了，此时我们可以使用 <textarea> 标签。</li>
+<li>在表单元素中，<textarea> 标签是用于定义多行文本输入的控件。</li>
+<li>使用多行文本输入控件，可以输入更多的文字，该控件常见于留言板，评论。</li>
+</ol>
+<p>语法：</p>
+<p>​    <textarea rows="3" cols="20">   文本内容 </textarea></p>
+<p>通过 <textarea> 标签可以轻松地创建多行文本输入框。cols=“每行中的字符数” ，rows=“显示的行数”，</p>
+<p>我们在实际开发中不会使用，都是用 CSS 来改变大小。</p>
+<p>表单元素我们学习了三大组  input 输入表单元素  select 下拉表单元素  textarea 文本域表单元素.这三组表单元素都应该包含在form表单域里面,并且有 name 属性.</p>
+<p>具体代码：</p>
+<p>​    <form></p>
+<p>​        &lt;input type=“text “ name=“username”&gt;</p>
+<p>​        <select name=“jiguan”>  </p>
+<p>​         <option>北京</option></p>
+<p>​        </select> </p>
+<p>​        <textarea name= "message"></p>
+<p>​        </textarea></p>
+<p>​    </form></p>
+<p>有三个名字非常相似的标签:表单域   form    使用场景:  提交区域内表单元素给后台服务器文件域   file      是input type 属性值   使用场景: 上传文件文本域   textarea    使用场景:  可以输入多行文字, 比如留言板  网站介绍等…4. 我们当前阶段不需要提交表单元素,所以我们只负责表单元素的外观形态即可.</p>
+<h3 id="完成综合案例"><a href="#完成综合案例" class="headerlink" title="完成综合案例"></a>完成综合案例</h3><h3 id="查阅文档："><a href="#查阅文档：" class="headerlink" title="查阅文档："></a>查阅文档：</h3><pre><code>经常查阅文档是一个非常好的学习习惯。
+推荐的网址： 
+百度:  http://www.baidu.com
+W3C :  http://www.w3school.com.cn/
+MDN: https://developer.mozilla.org/zh-CN/
+</code></pre>
+<hr>
+<h3 id="我们接下来是进行的网页开发网页的相关概念"><a href="#我们接下来是进行的网页开发网页的相关概念" class="headerlink" title="我们接下来是进行的网页开发网页的相关概念:"></a>我们接下来是进行的网页开发网页的相关概念:</h3><ul>
+<li> 什么是网页?</li>
+<li> 什么是HTML?</li>
+<li> 网页的形成?</li>
+</ul>
+<hr>
+<h2 id="什么是网页："><a href="#什么是网页：" class="headerlink" title="什么是网页："></a>什么是网页：</h2><pre><code>1.网站是指在因特网上根据一定的规则，使用 HTML 等制作的用于展示特定内容相关的网页集合。
+2.网页是网站中的一“页”，通常是 HTML 格式的文件，它要通过浏览器来阅读。
+</code></pre>
+<h3 id="网页的组成："><a href="#网页的组成：" class="headerlink" title="网页的组成："></a>网页的组成：</h3><pre><code>1.网页是构成网站的基本元素，它通常由图片、链接、文字、声音、视频等元素组成。通常我们看到的网页，常见以 .htm 或 .html 后缀结尾的文件，因此将其俗称为 HTML 文件。
+</code></pre>
+<p><img src="images/%E7%BD%91%E9%A1%B5%E7%9A%84%E7%BB%84%E6%88%90.png"></p>
+<h3 id="什么是HTML："><a href="#什么是HTML：" class="headerlink" title="什么是HTML："></a>什么是HTML：</h3><pre><code>1.HTML 指的是超文本标记语言 (Hyper Text Markup Language) ，它是用来描述网页的一种语言。
+2.HTML 不是一种编程语言，而是一种标记语言 (markup language)。
+标记语言是一套标记标签 (markup tag)。
+</code></pre>
+<h3 id="网页的总结："><a href="#网页的总结：" class="headerlink" title="网页的总结："></a>网页的总结：</h3><pre><code>1.网页是图片、链接、文字、声音、视频等元素组成, 其实就是一个html文件(后缀名为html)
+2.网页生成制作:  有前端人员书写 HTML 文件, 然后浏览器打开,就能看到了网页.
+3.HTML: 超文本标记语言, 用来制作网页的一门语言. 有标签组成的. 比如 图片标签 链接标签 视频标签等…
+</code></pre>
+<h3 id="浏览器："><a href="#浏览器：" class="headerlink" title="浏览器："></a>浏览器：</h3><p><strong>常用的浏览器</strong></p>
+<ul>
+<li> IE</li>
+<li> 火狐</li>
+<li> 谷歌</li>
+<li> 苹果</li>
+<li> 欧朋</li>
+</ul>
+<ul>
+<li> 浏览器是网页显示、运行的平台。常用的浏览器有 IE、火狐（Firefox）、谷歌（Chrome）、Safari和Opera等。平时称为五大浏览器。</li>
+<li>查看浏览器市场份额：<a target="_blank" rel="noopener" href="http://tongji.baidu.com/data/browser">http://tongji.baidu.com/data/browser</a><br><img src="images/%E6%B5%8F%E8%A7%88%E5%99%A8.png"></li>
+</ul>
+<p>  <strong>浏览器内核（渲染引擎）</strong></p>
+<ul>
+<li>负责读取网页内容，整理讯息，计算网页的显示方式并显示页面<br><img src="images/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%86%85%E6%A0%B8.png"></li>
+<li> 目前国内一般浏览器都会采用 Webkit/Blink 内核，如 360、UC、QQ、搜狗等。</li>
+</ul>
+<hr>
+<h2 id="web标准："><a href="#web标准：" class="headerlink" title="web标准："></a>web标准：</h2><ul>
+<li><p> Web 标准是由 W3C 组织和其他标准化组织制定的一系列标准的集合。W3C（万维网联盟）是国际最著名的标准化组织。</p>
+<h3 id="为什么需要Web标准："><a href="#为什么需要Web标准：" class="headerlink" title="为什么需要Web标准："></a>为什么需要Web标准：</h3></li>
+<li><p>浏览器不同，它们显示页面或者排版就有些许差异<br><img src="images/web%E6%A0%87%E5%87%86.png"></p>
+</li>
+<li><p>遵循 Web 标准除了可以让不同的开发人员写出的页面更标准、更统一外，还有以下优点：<br>  1.让 Web 的发展前景更广阔。<br>  2.内容能被更广泛的设备访问。<br>  3.更容易被搜寻引擎搜索。<br>  4.降低网站流量费用。<br>  5.使网站更易于维护。<br>  6.提高页面浏览速度。</p>
+</li>
+</ul>
+<hr>
+<h2 id="web标准的构成："><a href="#web标准的构成：" class="headerlink" title="web标准的构成："></a>web标准的构成：</h2><pre><code>主要包括 《结构Structure》 、《表现（Presentation）》和《行为（Behavior）》三个方面。
+</code></pre>
+<p><img src="images/%E5%9B%BE%E7%89%8745.png"><br>Web 标准提出的最佳体验方案：<strong>结构、样式、行为相分离</strong>。<br>简单理解：<strong>结构写到 HTML 文件中， 表现写到 CSS 文件中， 行为写到 JavaScript 文件中</strong><br><img src="images/%E9%B8%9F.png"></p>
+<p>1.结构类似身体</p>
+<p>2.表现类似外观装饰</p>
+<p>3.行为类似行为动作</p>
+<h2 id="4-相比较而言-三者中结构最重要"><a href="#4-相比较而言-三者中结构最重要" class="headerlink" title="4.相比较而言, 三者中结构最重要."></a>4.相比较而言, 三者中结构最重要.</h2><h2 id="HTML标签的导读："><a href="#HTML标签的导读：" class="headerlink" title="HTML标签的导读："></a>HTML标签的导读：</h2><h3 id="HTML语法规则："><a href="#HTML语法规则：" class="headerlink" title="HTML语法规则："></a>HTML语法规则：</h3><pre><code>1.HTML 标签是由尖括号包围的关键词，例如 &lt;html&gt;。
+2.HTML 标签通常是成对出现的，例如 &lt;html&gt; 和 &lt;/html&gt; ，我们称为**双标签**。
+3.签。标签对中的第一个标签是开始标签，第二个标签是结束标签。 
+</code></pre>
+<p>有些特殊的标签必须是单个标签（极少情况），例如 <br />，我们称为<strong>单标签</strong>。  </p>
+<h3 id="标签的关系："><a href="#标签的关系：" class="headerlink" title="标签的关系："></a>标签的关系：</h3><pre><code>双标签关系可以分为两类：包含关系和并列关系
+包含标签：
+    &lt;head&gt;  
+        &lt;title&gt; &lt;/title&gt; 
+    &lt;/head&gt;
+</code></pre>
+<p><img src="images/%E5%A4%A7%E5%A4%B4%E5%84%BF%E5%AD%90.png"><br>    并列关系：<br>         <head> </head><br>         <body> </body><br><img src="images/%E7%86%8A%E5%A4%A7.png"> </p>
+<h3 id="基本结构标签："><a href="#基本结构标签：" class="headerlink" title="基本结构标签："></a>基本结构标签：</h3><pre><code>每个网页都会有一个基本的结构标签（也称为骨架标签），页面内容也是在这些基本标签上书写
+</code></pre>
+<p><img src="images/%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84.png"> </p>
+<h3 id="开发工具："><a href="#开发工具：" class="headerlink" title="开发工具："></a>开发工具：</h3><p>   <img src="images/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7.png"><br>   <img src="images/%E5%89%AA%E5%A4%B4.png"><br><strong>VSCode的使用：</strong><br>    1. 双击打开软件。<br>    2. 新建文件（Ctrl + N ）。<br>    3. 保存（Ctrl + S ）, 注意移动要保存为 .html 文件<br>    4. Ctrl + 加号键 ，Ctrl + 减号键  可以放大缩小视图<br>    5. 生成页面骨架结构。 输入! 按下 Tab 键。<br>    6. 利用插件在浏览器中预览页面：单击鼠标右键，在弹出窗口中点击“Open In Default Browser”。<br><strong>DOCTYPE</strong><br>    <!DOCTYPE html>  文档类型声明标签,告诉浏览器这个页面采取html5版本来显示页面.<br><strong>lang 语言种类</strong><br>    用来定义当前文档显示的语言。<br>    en定义语言为英语<br>    zh-CN定义语言为中文<br>    简单来说,定义为en 就是英文网页, 定义为 zh-CN 就是中文网页<br>    其实对于文档显示来说，定义成en的文档也可以显示中文，定义成zh-CN的文档也可以显示英文<br>    这个属性对浏览器和搜索引擎(百度.谷歌等)还是有作用的<br><strong>字符集</strong><br>    1.字符集 (Character set)是多个字符的集合。以便计算机能够识别和存储各种文字。<br>    2.在<head>标签内，可以通过<meta> 标签的 charset 属性来规定 HTML 文档应该使用哪种字符编码。<br>    3.<meta charset=" UTF-8" /><br>    4.charset 常用的值有：GB2312 、BIG5 、GBK 和 UTF-8，其中 UTF-8 也被称为万国码，基本包含了全世界所有国家需要用到的字符.<br>    5.注意：上面语法是必须要写的代码，否则可能引起乱码的情况。一般情况下，统一使用“UTF-8”编码，尽量统一写成标准的 “UTF-8”，不要写成  “utf8” 或 “UTF8”。</p>
+<h3 id="语义化标签："><a href="#语义化标签：" class="headerlink" title="语义化标签："></a>语义化标签：</h3><pre><code>学习标签是有技巧的，重点是记住每个标签的语义。简单理解就是指标签的含义，即这个标签是用来干嘛的。
+</code></pre>
+<h3 id="什么是语义化标签："><a href="#什么是语义化标签：" class="headerlink" title="什么是语义化标签："></a>什么是语义化标签：</h3><pre><code>根据标签的语义，在合适的地方给一个最为合理的标签，可以让页面结构更清晰。
+下图没有语义化标签：
+</code></pre>
+<p><img src="images/%E6%B2%A1%E6%9C%89%E8%AF%AD%E4%B9%89.png"></p>
+<h3 id="添加语义标签："><a href="#添加语义标签：" class="headerlink" title="添加语义标签："></a>添加语义标签：</h3><p><img src="images/%E8%AF%AD%E4%B9%89%E5%8C%96.png"></p>
+<h3 id="常用的标签："><a href="#常用的标签：" class="headerlink" title="常用的标签："></a>常用的标签：</h3><h3 id="标题标签"><a href="#标题标签" class="headerlink" title="标题标签"></a>标题标签</h3><pre><code>**标题标签 &lt;h1&gt; - &lt;h6&gt;（重要）**
+为了使网页更具有语义化，我们经常会在页面中用到标题标签。HTML 提供了 6 个等级的网页标题，即&lt;h1&gt; - &lt;h6&gt; 。
+具体实现：
+      &lt;h1&gt; 我是一级标题 &lt;/h1&gt;
+特点：
+1.加了标题的文字会变的加粗，字号也会依次变大。
+2. 一个标题独占一行。
+来！！！左边。。。右边。。。中间：
+    &lt;h1&gt;标题一共六级选,&lt;/h1&gt;
+    &lt;h2&gt;文字加粗一行显。&lt;/h2&gt;
+    &lt;h3&gt;由大到小依次减，&lt;/h3&gt;
+    &lt;h4&gt;从重到轻随之变。&lt;/h4&gt;
+    &lt;h5&gt;语法规范书写后，&lt;/h5&gt;
+    &lt;h6&gt;具体效果刷新见。&lt;/h6&gt;
+</code></pre>
+<p>　　                ——pink老师</p>
+<h3 id="段落标签："><a href="#段落标签：" class="headerlink" title="段落标签："></a>段落标签：</h3><pre><code>在网页中，要把文字有条理地显示出来，就需要将这些文字分段显示。在 HTML 标签中，&lt;p&gt;标签用于定义段落，它可以将整个网页分为若干个段落。
+具体实现：
+     &lt;p&gt; 我是一个段落标签 &lt;/p&gt;
+特点：
+    1. 文本在一个段落中会根据浏览器窗口的大小自动换行。
+    2. 段落和段落之间保有空隙。
+</code></pre>
+<hr>
+<h3 id="换行标签"><a href="#换行标签" class="headerlink" title="换行标签"></a>换行标签</h3><pre><code>在 HTML 中，一个段落中的文字会从左到右依次排列，直到浏览器窗口的右端，然后才自动换行。如果希望某段文本强制换行显示，就需要使用换行标签 &lt;br /&gt;。
+具体实现：
+      &lt;br /&gt;
+特点：
+    1. &lt;br /&gt; 是个单标签。
+    2. &lt;br /&gt; 标签只是简单地开始新的一行，跟段落不一样，段落之间会插入一些垂直的间距。
+</code></pre>
+<h3 id="文本格式化标签："><a href="#文本格式化标签：" class="headerlink" title="文本格式化标签："></a>文本格式化标签：</h3><pre><code>在网页中，有时需要为文字设置粗体、斜体 或下划线等效果，这时就需要用到 HTML 中的文本格式化标签，使文字以特殊的方式显示。
+</code></pre>
+<p><img src="images/%E6%A0%BC%E5%BC%8F%E5%8C%96%E6%A0%87%E7%AD%BE.png"></p>
+<h3 id="div和span标签"><a href="#div和span标签" class="headerlink" title="div和span标签"></a>div和span标签</h3><pre><code>&lt;div&gt; 和 &lt;span&gt; 是没有语义的，它们就是一个盒子，用来装内容的。
+具体实现：
+     &lt;div&gt; 这是头部 &lt;/div&gt;    
+     &lt;span&gt; 今日价格 &lt;/span&gt;
+特点：
+    1. &lt;div&gt; 标签用来布局，但是现在一行只能放一个&lt;div&gt;。 大盒子
+    2. &lt;span&gt; 标签用来布局，一行上可以多个 &lt;span&gt;。小盒子
+</code></pre>
+<h3 id="图片标签："><a href="#图片标签：" class="headerlink" title="图片标签："></a>图片标签：</h3><pre><code>在 HTML 标签中，&lt;img&gt; 标签用于定义 HTML 页面中的图像。
+具体实现：
+      &lt;img src=&quot;图像URL&quot; /&gt;
+解释：
+    src 是&lt;img&gt;标签的必须属性，它用于指定图像文件的路径和文件名。
+    所谓属性：简单理解就是属于这个图像标签的特性。
+图像标签的其他属性：
+</code></pre>
+<p><img src="images/%E5%9B%BE%E7%89%87%E5%B1%9E%E6%80%A7.png"><br>​<br>    图像标签注意点：<br>        1.图像标签可以拥有多个属性，必须写在标签名的后面。<br>        2.属性之间不分先后顺序，标签名与属性、属性与属性之间均以空格分开。<br>        3.属性采取键值对的格式，即 key=“value” 的格式，属性 =“属性值”。</p>
+<h3 id="路径："><a href="#路径：" class="headerlink" title="路径："></a>路径：</h3><pre><code>分为相对路径和绝对路径：
+    **路径之相对路径**
+    相对路径：以引用文件所在位置为参考基础，而建立出的目录路径。 
+    这里简单来说，图片相对于 HTML 页面的位置
+</code></pre>
+<p><img src="images/%E8%B7%AF%E5%BE%84.png"><br>    特点：<br>        相对路径是从代码所在的这个文件出发，去寻找目标文件的，而我们这里所说的上一级 、下一级和同一级就是 图片相对于 HTML 页面的位置。<br>        路径之绝对路径：<br>            绝对路径：<br>            1.是指目录下的绝对位置，直接到达目标位置，通常是从盘符开始的路径。<br>            例如，“D:\web\img\logo.gif”或完整的网络地址“<a target="_blank" rel="noopener" href="http://www.itcast.cn/images/logo.gif%E2%80%9D">http://www.itcast.cn/images/logo.gif”</a></p>
+<h3 id="链接标签："><a href="#链接标签：" class="headerlink" title="链接标签："></a>链接标签：</h3><pre><code> 链接的语法格式
+    &lt;a href=&quot;跳转目标&quot; target=&quot;目标窗口的弹出方式&quot;&gt; 文本或图像 &lt;/a&gt;
+属性：
+    1.href：用于指定链接目标的url地址
+    2.target:用于指定链接页面的打开方式_self默认值 _blank新窗口打开
+    3.#：空链接
+</code></pre>
+<p>链接分类：<br>    1.外部链接: 例如 &lt; a href=”http:// <a target="_blank" rel="noopener" href="http://www.baidu.com/">www.baidu.com</a> “&gt; 百度</a >。<br>    2.内部链接:网站内部页面之间的相互链接. 直接链接内部页面名称即可，例如 &lt; a href=”index.html”&gt; 首页 </a >。<br>    3.空链接: 如果当时没有确定链接目标时，&lt; a href=”#”&gt; 首页 </a > 。<br>    4.下载链接: 如果 href 里面地址是一个文件或者压缩包，会下载这个文件。<br>    5.网页元素链接: 在网页中的各种网页元素，如文本、图像、表格、音频、视频等都可以添加超链接.<br>    6.锚点链接:  点我们点击链接,可以快速定位到页面中的某个位置. </p>
+<ul>
+<li><pre><code>   在链接文本的 href 属性中，设置属性值为 #名字 的形式，如&lt;a href=&quot;#two&quot;&gt; 第2集 &lt;/a&gt; 
+</code></pre>
+</li>
+<li><pre><code> 找到目标位置标签，里面添加一个 id 属性 = 刚才的名字 ，如：&lt;h3 id=&quot;two&quot;&gt;第2集介绍&lt;/h3&gt;
+</code></pre>
+<h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3>  如果需要在 HTML 文档中添加一些便于阅读和理解但又不需要显示在页面中的注释文字，就需要使用注释标签。<br>HTML中的注释以“<!--”开头，以“ -->”结束。<br>  具体实现：<pre><code>   &lt;!-- 注释语句 --&gt;      快捷键: ctrl +  / 
+</code></pre>
+  一句话: 注释标签里面的内容是给程序猿看的, 这个代码是不执行不显示到页面中的.<br>  添加注释是为了更好地解释代码的功能，便于相关开发人员理解和阅读代码，程序是不会执行注释内容的<h3 id="特殊字符："><a href="#特殊字符：" class="headerlink" title="特殊字符："></a>特殊字符：</h3>  在 HTML 页面中，一些特殊的符号很难或者不方便直接使用，此时我们就可以使用下面的字符来替代。<br><img src="images/%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6.png"><br>  重点记住：空格 、大于号、 小于号 这三个， 其余的使用很少，如果需要回头查阅即可。</li>
+</ul>
+<hr>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">knull</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://k-null.github.io/2021/11/02/html-css-02/">https://k-null.github.io/2021/11/02/html-css-02/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">knull</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/HTML/">
+                                    <span class="chip bg-color">HTML</span>
+                                </a>
+                            
+                                <a href="/tags/CSS/">
+                                    <span class="chip bg-color">CSS</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+        <div class="disqus-card card" data-aos="fade-up">
+    <div id="disqus_thread" class="card-content">
+        <noscript>Please enable JavaScript to view the
+            <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+    </div>
+</div>
+
+<script type="text/javascript">
+    disqus_config = function () {
+        this.page.url = 'https://k-null.github.io/2021/11/02/html-css-02/';
+        this.page.identifier = '/2021/11/02/html-css-02/';
+        this.page.title = 'HTML笔记-2';
+    };
+    let disqus_shortname = '';
+
+    (function () { // DON'T EDIT BELOW THIS LINE
+        let d = document, s = d.createElement('script');
+        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'MzzBEMaQ2oeQ1ipPKtv6VaEz-gzGzoHsz',
+        appKey: 'yqTzPU4HVQfvqeb4zRBiGQkC',
+        notify: 'true' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'knull go go'
+    });
+</script>
+
+<!--酷Q推送-->
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2021/11/02/html-css-03/">
+                    <div class="card-image">
+                        
+                        <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.a8oZMxGm-X0PvaLghp0cfAHaEK?pid=ImgDet&rs=1" class="responsive-img" alt="HTML笔记-3">
+                        
+                        <span class="card-title">HTML笔记-3</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            一篇文章学会html
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-02
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/HTML/" class="post-category">
+                                    HTML
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/HTML/">
+                        <span class="chip bg-color">HTML</span>
+                    </a>
+                    
+                    <a href="/tags/CSS/">
+                        <span class="chip bg-color">CSS</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/11/02/html-css-05/">
+                    <div class="card-image">
+                        
+                        <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.a8oZMxGm-X0PvaLghp0cfAHaEK?pid=ImgDet&rs=1" class="responsive-img" alt="HTML笔记-5">
+                        
+                        <span class="card-title">HTML笔记-5</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            一篇文章学会html
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/HTML/" class="post-category">
+                                    HTML
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/HTML/">
+                        <span class="chip bg-color">HTML</span>
+                    </a>
+                    
+                    <a href="/tags/CSS/">
+                        <span class="chip bg-color">CSS</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Knull的个人博客<br />'
+            + '文章作者: Knull<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="kugou"
+                   type="song"
+                   id="DCFC3006F55F0D9AAA9FD01A8FC12835"
+                   fixed='true'
+                   autoplay='true'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2021</span>
+            
+            <a href="/about" target="_blank">Knull</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">32k</span>
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/K-null" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:a2494396597@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2494396597" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2494396597" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    
+
+    
+
+    <!-- 雪花特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/"><\/script>');
+            }
+        </script>
+    
+
+    <!-- 鼠标星星特效 -->
+    
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i["DaoVoiceObject"] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            a.charset = "utf-8";
+            m.parentNode.insertBefore(a, m)
+        })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') +
+            "//widget.daovoice.io/widget/6984b559.js", "daovoice")
+        daovoice('init', {
+            app_id: "caa401cb"
+        });
+        daovoice('update');
+    </script>
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
+
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+
+</html>
